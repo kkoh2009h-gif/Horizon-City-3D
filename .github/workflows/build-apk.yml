@@ -2,11 +2,13 @@ name: Build Android APK
 
 on:
   push:
-    paths:
-      - "build_trigger.txt"
-  issues:
-    types: [opened]
+    branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: read
