@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - "build_trigger.txt"
+  issues:
+    types: [opened]
+  workflow_dispatch:
 
 permissions:
   contents: read
