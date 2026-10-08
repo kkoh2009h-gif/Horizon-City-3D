@@ -1,1 +1,17 @@
-PROJECT_FILE_PLACEHOLDER
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.horizoncity3d.game'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.horizoncity3d.game'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '0.2.0'
+    }
+    buildTypes {
+        release { minifyEnabled false; shrinkResources false }
+        debug { minifyEnabled false }
+    }
+}
