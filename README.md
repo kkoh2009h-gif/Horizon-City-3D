@@ -1,1 +1,21 @@
-PROJECT_FILE_PLACEHOLDER
+# Horizon City 3D 🇮🇶
+
+مشروع لعبة عالم مفتوح 3D أصلية تدور في مدينة عراقية خيالية اسمها **مدينة الرافدين**.
+
+## الأنظمة الحالية
+- WebGL 3D Prototype
+- لاعب وسيارة وNPCs
+- شرطة وWanted
+- مهام وقصة عراقية
+- اقتصاد وورشة
+- طقس: صافي/مطر/ضباب
+- ليل ونهار
+- جودة رسوم Low/Medium/High
+- حفظ التقدم
+- واجهة وتحكم للموبايل
+- مشروع Android WebView مع Hardware Acceleration
+
+## البناء
+يتطلب Android SDK وGradle/Android Studio لإخراج APK.
+
+هذا المشروع لا يستخدم شخصيات أو خرائط أو شعارات من GTA أو أي محتوى محمي.
