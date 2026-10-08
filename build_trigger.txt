@@ -1,2 +1,3 @@
 Build Horizon City 3D Android APK
 Branch build trigger: apk-build
+Retry: 2026-10-08T12:08:00Z
