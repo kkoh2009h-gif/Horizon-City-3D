@@ -1,1 +1,7 @@
-PROJECT_FILE_PLACEHOLDER
+<resources>
+<style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:colorAccent">#1565C0</item>
+    <item name="android:navigationBarColor">#050b12</item>
+</style>
+</resources>
